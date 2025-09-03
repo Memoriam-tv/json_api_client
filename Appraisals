@@ -3,6 +3,7 @@ appraise 'activesupport-6.0-faraday-1.x' do
   gem 'activemodel', '~> 6.0.0'
   gem 'faraday', '~> 1.10'
   gem 'faraday-gzip', '~> 1.0'
+  gem 'concurrent-ruby', '1.3.4'
 end
 
 appraise 'activesupport-6.1-faraday-1.x' do
@@ -10,6 +11,7 @@ appraise 'activesupport-6.1-faraday-1.x' do
   gem 'activemodel', '~> 6.1.0'
   gem 'faraday', '~> 1.10'
   gem 'faraday-gzip', '~> 1.0'
+  gem 'concurrent-ruby', '1.3.4'
 end
 
 appraise 'activesupport-7.0-faraday-1.x' do
@@ -17,6 +19,7 @@ appraise 'activesupport-7.0-faraday-1.x' do
   gem 'activemodel', '~> 7.0.0'
   gem 'faraday', '~> 1.10'
   gem 'faraday-gzip', '~> 1.0'
+  gem 'concurrent-ruby', '1.3.4'
 end
 
 appraise 'activesupport-7.1-faraday-1.x' do
